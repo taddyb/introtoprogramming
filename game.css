@@ -1,0 +1,256 @@
+/* Version 1.0
+ * Tadd Bindas
+ * CMPT 120
+ * 12/6/2015
+ */
+aside, main 
+{
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 1%;
+}
+
+body
+{
+  background-color: #66c1e5;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1
+{
+  position: fixed;
+  top : 10px;
+  left: 818px;
+  font-family: arial;
+  text-shadow: 2px 2px #000000;
+  color: OldLace;
+}
+
+#descript
+{
+  position: fixed;
+  top: 60px;
+  left: 560px;
+  font-size: 150%;
+  color: OldLace;
+}
+
+
+#scene
+{
+  position: fixed;
+  left: 690px;
+  height: 28em;
+  top: 170px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 1em;
+  padding: 1em;
+  font-size: 150%;
+  color: #000000;
+  width: 480px;
+  height: 65px;
+  animation-name: blueWhite;  
+  animation-iteration-count: 1;  
+  animation-duration: 2s; 
+
+}
+
+#error
+{
+  position: fixed;
+  left: 690px;
+  height: 28em;
+  top: 300px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 1em;
+  padding: 1em;
+  font-size: 150%;
+  color: #000000;
+  width: 480px;
+  height: 65px;
+  animation-name: greenWhite;  
+  animation-iteration-count: 1;  
+  animation-duration: 2s; 
+}
+
+#end
+{
+  position: fixed;
+  left: 690px;
+  height: 28em;
+  top: 430px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 1em;
+  padding: 1em;
+  font-size: 150%;
+  color: #000000;
+  width: 480px;
+  height: 65px;
+  animation-name: redWhite;  
+  animation-iteration-count: infinite;  
+  animation-duration: 2s; 
+}
+
+#points
+{
+  position: fixed;
+  left: 690px;
+  height: 28em;
+  top: 540px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 1em;
+  padding: 1em;
+  font-size: 150%;
+  color: #000000;
+  width: 480px;
+  height: 65px;
+  animation-name: yellowWhite;  
+  animation-iteration-count: 1;  
+  animation-duration: 2s; 
+
+}
+
+@-webkit-keyframes greenWhite 
+{  
+  0% { background-color: rgba(255,255,255,0.8); }
+  50% { background-color: rgba(255,255,255,0.8); }
+  51% { background-color: #b2ff66; }
+  100% { background-color: #b2ff66; }
+}
+
+@-webkit-keyframes blueWhite 
+{  
+  0% { background-color: rgba(255,255,255,0.8); }
+  50% { background-color: rgba(255,255,255,0.8); }
+  51% { background-color: #6666ff; }
+  100% { background-color: #6666ff; }
+}
+
+@-webkit-keyframes yellowWhite 
+{  
+  0% { background-color: rgba(255,255,255,0.8); }
+  50% { background-color: rgba(255,255,255,0.8); }
+  51% { background-color: #ffff66; }
+  100% { background-color: #ffff66; }
+}
+
+@-webkit-keyframes redWhite 
+{  
+  0% { background-color: rgba(255,255,255,0.8); }
+  50% { background-color: rgba(255,255,255,0.8); }
+  51% { background-color: #ff4d4d; }
+  100% { background-color: #ff4d4d; }
+}
+
+#map
+{
+  position: fixed;
+  padding: 1em;
+  height: 28em;
+  left :10px;
+  border-radius: 1em;
+  background-color: rgba(255,255,255,0.8);
+  color: #333;
+  margin-bottom: 1em;
+  width: 500px;
+  height: 450px;
+}
+
+#waterLevel
+{
+  position: fixed;
+  padding: 1em;
+  height: 28em;
+  right :10px;
+  border-radius: 1em;
+  background-color: rgba(255,255,255,0.8);
+  color: #333;
+  margin-bottom: 1em;
+  width: 500px;
+  height: 450px;
+}
+
+#backpack
+{
+  position: fixed;
+  left: 1%;
+  height: 28em;
+  top: 65%;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 1em;
+  padding: 1em;
+  font-size: 120%;
+  color: #000000;
+  width: 25%;
+  height: 5%;
+}
+
+#locs
+{
+  position: fixed;
+  right: 1%;
+  height: 28em;
+  top: 65%;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 1em;
+  padding: 1em;
+  font-size: 120%;
+  color: #000000;
+  width: 25%;
+  height: 5%;
+}
+
+#commands
+{
+  position: fixed;
+  margin-top: 1em;
+  top: 75%;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: rgba(255,255,255,0.8);
+  right: 47%;
+
+}
+
+#textinput
+{
+  position: fixed;
+  margin-top: 1em;
+  top: 87%;
+  right: 41.5%;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: rgba(255,255,255,0.8);
+}
+
+#cpr
+{
+  position: fixed;
+  margin-top: 1em;
+  top: 90%;
+  right: 1%;
+  color: OldLace;
+}
+
+#help
+{
+  position: fixed;
+  top: 77%;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: rgba(255,255,255,0.8);
+  right: 40.5%;
+}
+
+#build
+{
+  position: fixed;
+  top: 77%;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: rgba(255,255,255,0.8);
+  left: 39.5%;
+}
